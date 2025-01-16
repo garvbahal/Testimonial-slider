@@ -5,7 +5,7 @@ import Descriptions from "./components/Descriptions";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[#e5e7eb] flex flex-col justify-center items-center w-[100vw] h-[100vh]">
       <Header />
 
       <Descriptions reviews={reviews} />
